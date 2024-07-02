@@ -1,0 +1,106 @@
+body {
+  background: #C0C0C0;
+  color: #4169E1;
+  padding: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.profileimg {
+  border-radius: 50%;
+  border: 8px inset #4169E1;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  margin-inline-end: 2rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.top {
+  display: flex;
+  padding: 3px 3px 3px 3px;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width:850px){
+  .top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px){
+  .explore{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media(max-width: 5000px){
+  .pdf{
+    justify-content:center;
+    flex-direction: column;
+    text-align:center;
+  }
+}
+
+.sections {
+  text-decoration: none;
+  color: #C0C0C0;
+  background: #4169E1;
+  padding: .75rem 1.5rem .75rem 1.5rem;
+  display: inline-flex;
+  border-radius: 1.25rem;
+  align-items: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  justify-content: space-between;
+  margin: 3px;
+  text-align: center;
+}
+
+.links {
+  text-decoration: none;
+  display: inline-flex;
+  padding: .4rem .4rem .4rem .4rem;
+  border-radius: 1.05rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3px;
+  border: 2px solid #4169E1;
+}
+
+.explore {
+  display: flex;
+  padding: 7px 7px 7px 7px;
+  text-align: center;
+  justify-content: center;
+}
+
+.smallimg {
+  width: 35px;
+  height: 35px;
+}
+
+hr {
+  background-color: #4169E1;
+  height: 1px;
+}
+
+.pdf{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
