@@ -182,7 +182,17 @@ h1 {
 
 
 /* Updates Section */
-.updates{}
+.sectheader{
+  font-size: 25px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+
+
+
 
 
 
