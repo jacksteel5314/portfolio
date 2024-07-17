@@ -99,7 +99,7 @@ h1 {
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   .explore{
     justify-content: center;
     flex-direction: column;
