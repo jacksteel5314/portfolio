@@ -115,6 +115,14 @@ h1 {
     width:300px;
     height:300px;
   }
+  .bighead{
+    font-size:40px;
+    font-weight: 250;
+  }
+  .smlhead{
+    font-size:35px;
+    font-weight: 250;
+  }
 }
 
 @media(max-width: 5000px){
