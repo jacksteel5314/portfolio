@@ -1,12 +1,16 @@
+/* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
+
+
+/* Background and Top Formatting */
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: url('https://cdn.pixabay.com/photo/2021/02/01/06/48/geometric-5969508_1280.png');
     background-size: cover;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 body::before {
@@ -21,6 +25,10 @@ body::before {
     z-index: -1; 
 }
 
+
+
+
+/* Introduction Words */
 .bighead {
   font-family: "Playwrite AR", cursive;
   font-optical-sizing: auto;
@@ -42,12 +50,17 @@ p {
   text-align: left;
 }
 
+
+
+
+
 .profileimg {
   border-radius: 50%;
-  border: 8px inset #4169E1;
+  border: 8px inset #FFFFFF;
   padding: 10px;
   width: 400px;
   height: 400px;
+  margin-top: 30px;
   margin-inline-end: 2rem;
 }
 
@@ -62,8 +75,12 @@ h1 {
   padding: 3px 3px 3px 3px;
   text-align: center;
   justify-content: center;
+  font-size: 30px;
 }
 
+
+
+/* Size Adjustments */
 @media (max-width:1150px){
   .top {
     flex-direction: column;
@@ -88,6 +105,9 @@ h1 {
     flex-direction: column;
     text-align: center;
   }
+  .topexptxt{
+    display: none;
+  }
 }
 
 @media(max-width: 5000px){
@@ -98,9 +118,13 @@ h1 {
   }
 }
 
+
+
+
+/* Different Sections */
 .sections {
   text-decoration: none;
-  color: #C0C0C0;
+  color: #FFFFFF;
   background: #4169E1;
   padding: .75rem 1.5rem .75rem 1.5rem;
   display: inline-flex;
@@ -123,6 +147,46 @@ h1 {
   border: 2px solid #4169E1;
 }
 
+
+
+
+/* Top of Cover Page Links */
+.topexp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.topexptxt {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0;
+}
+
+.butcontainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.butcontainer a {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+/* Updates Section */
+.updates{}
+
+
+
+/* Explore Section */
 .explore {
   display: flex;
   padding: 7px 7px 7px 7px;
@@ -130,16 +194,21 @@ h1 {
   justify-content: center;
 }
 
+/* Icons */
 .smallimg {
   width: 35px;
   height: 35px;
 }
 
+
+/* Horizontal Lines */
 hr {
   background-color: #4169E1;
   height: 1px;
 }
 
+
+/* Resume Page */
 .pdf{
   display: flex;
   justify-content: center;
@@ -148,6 +217,8 @@ hr {
 }
 
 
+
+/* Experiences */
 .timeline{
   position: relative;
   padding: 20px 20px;
