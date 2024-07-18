@@ -80,69 +80,6 @@ h1 {
 
 
 
-/* Size Adjustments */
-@media (max-width:1150px){
-  .top {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .bighead{
-    font-size: 50px;
-  }
-  .smlhead{
-    font-size: 45px;
-  }
-  p{
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
-@media (max-width: 500px){
-  .explore{
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
-  .topexptxt{
-    display: none;
-  }
-  p{
-    font-size: 15px
-    text-align: center;
-    justify-content: center;
-  }
-  .profileimg{
-    width:300px;
-    height:300px;
-    text-align: center;
-    justify-content: center;
-  }
-  .bighead{
-    font-size:40px;
-    font-weight: 250;
-    text-align: center;
-    justify-content: center;
-  }
-  .smlhead{
-    font-size:35px;
-    font-weight: 250;
-    text-align: center;
-    justify-content: center;
-  }
-}
-
-@media(max-width: 5000px){
-  .pdf{
-    justify-content:center;
-    flex-direction: column;
-    text-align:center;
-  }
-}
-
-
-
 
 /* Different Sections */
 .sections {
@@ -213,7 +150,44 @@ h1 {
   padding: 2px;
 }
 
+.updates{
+  display: flex;
+  padding: 7px 7px 7px 7px;
+  justify-content: center;
+}
 
+.medimg{
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background: #FFFFFF;
+  padding: .75rem 1.5rem .75rem 1.5rem;
+  display: inline-flex;
+  border-radius: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption{
+  text-align: center;
+  margin-top: 10px;
+  color: #FFFFFF;
+  background: #6CB4EE;
+  padding: .75rem 1.5rem .75rem 1.5rem;
+  display: inline-flex;
+  border-radius: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.captioncontainer{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 
 
@@ -304,4 +278,78 @@ hr {
   margin-bottom: 10px;
 }
 
+
+
+
+/* Size Adjustments */
+@media (max-width:1150px){
+  .top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bighead{
+    font-size: 50px;
+  }
+  .smlhead{
+    font-size: 45px;
+  }
+  p{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 500px){
+  .explore{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .topexptxt{
+    display: none;
+  }
+  p{
+    font-size: 15px
+    text-align: center;
+    justify-content: center;
+  }
+  .profileimg{
+    width:300px;
+    height:300px;
+    text-align: center;
+    justify-content: center;
+  }
+  .bighead{
+    font-size:40px;
+    font-weight: 250;
+    text-align: center;
+    justify-content: center;
+  }
+  .smlhead{
+    font-size:35px;
+    font-weight: 250;
+    text-align: center;
+    justify-content: center;
+  }
+  .medimg{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media(max-width: 5000px){
+  .pdf{
+    justify-content:center;
+    flex-direction: column;
+    text-align:center;
+  }
+}
+
+@media(max-width: 800px){
+  .medimg{
+    width: 150px;;
+    height: 150px;
+  }
+}
 
