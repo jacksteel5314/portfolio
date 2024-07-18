@@ -325,6 +325,28 @@ hr {
   max-width: 700px;
 }
 
+.techbox{
+  width:70%;
+  background: #4169E1;
+  padding: .75rem 1.5rem .75rem 1.5rem;
+  border-radius: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 700px;
+}
+
+.otherbox{
+  width:70%;
+  background: #00A6DC;
+  padding: .75rem 1.5rem .75rem 1.5rem;
+  border-radius: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 700px;
+}
+
 .front{
   display: flex;
   justify-content: center;
@@ -352,6 +374,28 @@ hr {
   align-items: center;
   margin-top: 40px;
 }
+
+.techInt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.otherInt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.return{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
 
 
 /* Size Adjustments */
