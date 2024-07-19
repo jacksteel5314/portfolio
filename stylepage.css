@@ -382,6 +382,28 @@ hr {
   margin-top: 40px;
 }
 
+.interests{
+  background: #00A6DC;
+  display: flex;
+  padding: .75rem 1.5rem .75rem 1.5rem;
+  border-radius: 1.25rem;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ointerests{
+  background: #4169E1;
+  display: flex;
+  padding: .75rem 1.5rem .75rem 1.5rem;
+  border-radius: 1.25rem;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .otherInt{
   display: flex;
   justify-content: center;
@@ -394,6 +416,65 @@ hr {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+}
+
+
+/* Interest Editing */
+.intimg {
+  width: 165px;
+  height: 115px;
+  border-radius: 1.5rem;
+}
+
+.inttitle{
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  color: #00A6DC;
+  font-size:17px;
+  text-align: center;
+}
+
+.ointtitle{
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  color: #4169E1;
+  font-size:17px;
+  text-align: center;
+}
+
+.intp{
+  color: #00A6DC;
+  font-size: 13px;
+  text-align:center;
+}
+
+.ointp{
+  color: #4169E1;
+  font-size: 13px;
+  text-align:center;
+}
+
+.inttext{
+  margin-left: 15px;
+  margin-right: 15px;
+  background: #FFFFFF;
+  border-radius: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.intline{
+  width: 90%;
+  color: #00A6DC;
+  margin-top: 2px;
+  margin-bottom: 3px;
 }
 
 
